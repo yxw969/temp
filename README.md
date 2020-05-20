@@ -5,8 +5,14 @@
 <div>
  <span>&gt;&gt;<img src="{{ stu.image }}" >@{{ stu.user }} ({{ stu.name }})</span>
  
- <div>&gt;&gt;{{stu.content}}</div>
- </div>
+ <div id="my">&gt;&gt;{{stu.content}}</div>
+</div>
+<style>
+ #my p {
+  display: inline;
+  margin-left: 2em;
+ }
+</style>
 {% endfor %}
 
 Last updated: {{ site.time }}
