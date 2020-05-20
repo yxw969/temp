@@ -3,9 +3,9 @@
 
 {% for stu in site.stu %}
 <div>
- \>\>![]({{ stu.image }})@{{ stu.user }} ({{ stu.name }})
+ <span>&gt;&gt;<img src="{{ stu.image }}" >@{{ stu.user }} ({{ stu.name }})</span>
  
-   \>\>{{stu.content | markdownify}}
+ &nbsp&nbsp&nbsp&gt;&gt;{{stu.content | markdownify}}
  </div>
 {% endfor %}
 
