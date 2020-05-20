@@ -1,10 +1,10 @@
 
 # Contributors3
 
-{% for _stu in site.stu %}
+{% for stu in site.stu %}
 
- <h2> {{ _stu.image }}@{{ _stu.user }}({{ _stu.name | markdownify }}) </h2>
- <h3>{{_stu.content}}</h3>
+ <h2> {{ stu.image }}@{{ stu.user }}({{ stu.name | markdownify }}) </h2>
+ <h3>{{stu.content}}</h3>
  
 {% endfor %}
 
