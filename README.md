@@ -1,8 +1,6 @@
 
 # Contributors
-collection:
-  _stu:
-    output = true  
+  
 {% for _stu in site._stu %}
 
  <h2> {{ _stu.image }}@{{ _stu.user }}({{ _stu.name | markdownify }}) </h2>
