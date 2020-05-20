@@ -3,9 +3,9 @@
 
 {% for stu in site.stu %}
 
- \>\>![]({{ stu.image }})@{{ stu.user }}({{ stu.name }})
+ \>\>![]({{ stu.image }})@{{ stu.user }} ({{ stu.name }})
  
-        \>\>{{stu.content | markdownify}}
+   \>\>{{stu.content | markdownify}}
  
 {% endfor %}
 
