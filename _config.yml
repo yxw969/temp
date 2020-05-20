@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
 collection:
-  stu:
-    output=true
+  _stu:
+    output = true
