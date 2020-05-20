@@ -1,8 +1,8 @@
 
-# Contributors2
+# Contributors3
   collection:
   _stu:
-    output = true
+    output : true
 {% for _stu in site.stu %}
 
  <h2> {{ _stu.image }}@{{ _stu.user }}({{ _stu.name | markdownify }}) </h2>
